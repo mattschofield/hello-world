@@ -10,7 +10,7 @@ describe('test', function () {
 
   it('should be cool', function () {
     var yes = true;
-    yes.should.be.ok;
+    yes.should.not.be.ok;
   })
 
 });
