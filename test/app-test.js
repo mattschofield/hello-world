@@ -8,4 +8,9 @@ describe('test', function () {
     one.should.equal(1);
 	});
 
+  it('should be cool', function () {
+    var yes = true;
+    yes.should.be.ok;
+  })
+
 });
